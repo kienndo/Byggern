@@ -6,9 +6,6 @@ This repository contains our implementation of the **Byggern (TTK4155)** project
 - **Node 1 (UI/Controller)** — ATmega162: joystick + sliders (ADC), OLED UI, menu system, UART for debug, SPI to **MCP2515** CAN controller, external SRAM.
 - **Node 2 (Actuation/Control)** — ATmega2560 (Arduino Mega): DC motor + encoder (PID), servo, IR sensors for ball detection, solenoid via relay, CAN interface to Node 1.
 
-> Detected modules and keywords in this codebase: _adc, can, fsm, mcp2515, motor, node, oled, solenoid, spi, uart_.
-
-
 ## Firmware Layout
 
 ### Node 1 (ATmega162)
